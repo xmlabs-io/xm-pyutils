@@ -1,0 +1,12 @@
+[project]
+name = "xm-pyutils"
+version = "0.0.1"
+dependencies = [
+    "pyarrow>=10.0.1",
+    "pandas>=1.5.2",
+    "boto3>=1.26.27",
+]
+[tool.setuptools.packages.find]
+exclude = ["notebooks", "tests"]
+[tool.isort]
+profile = "black"

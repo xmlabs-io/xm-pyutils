@@ -17,3 +17,8 @@ venv:
 .PHONY: tests
 tests:
 	. ${VENV} && dotenv -f .env run pytest -vv --cov=. --cov-report=term-missing tests/
+
+
+.PHONY: fmt
+fmt:
+	. ${VENV} && black .

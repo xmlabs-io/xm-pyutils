@@ -1,5 +1,5 @@
 [project]
-name = "xm-pyutils"
+name = "xmutils"
 version = "0.0.1"
 dependencies = [
     "pyarrow>=10.0.1",

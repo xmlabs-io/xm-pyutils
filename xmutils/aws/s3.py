@@ -4,7 +4,7 @@ import boto3
 
 
 def get_objects_by_date(
-    bucket: str, end_date: datetime.datettime, start_date: datetime.datetime = None
+    bucket: str, end_date: datetime.datetime, start_date: datetime.datetime = None
 ) -> typing.List:
     """
     Get objects from S3 bucket by date.
